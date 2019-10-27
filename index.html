@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand navbar-light bg-light scrolling-navbar shadow">
             <!-- site logo, links to index.html -->
             <a href="index.html"><img src="100x100ph.png"></a>
-            <!-- Clonettes dropdown -->
+            <!-- Clones dropdown -->
             <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class= "btn btn-light">
             <div class="navbar-item px-2 dropdown">Clones  </div></button>
                 <div class="dropdown-menu px-5" aria-labelledby="navbarDropdownMenuLink">
@@ -54,6 +54,10 @@
             <p></p>
         <button class="btn btn-primary float-left">Find Clones</button>
     </div>
+    <!-- Extra search bar -->
+    <div class="hero-jumbo jumbotron bg-ingo">
+        <span class="input-group"></span>
+    </div>
     <!-- affiliated organizations -->
     <div class="psudo-carosol row">
         <div class="caro-thing col-md-2"><img src="200x100ph.png"></div>
@@ -68,14 +72,56 @@
         <p></p>
         <h4>Popular Subjects</h4>
         <div class="row card-columns">
-            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">thing 1</div>
-            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">thing 2</div>
-            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">thing 3</div>
+            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">
+                <div class="container">
+                <span class="fa fa-keyboard-o border rounded-circle pt-2 pr-2 pl-2 pb-2 bg-info" aria-hidden="true"></span>
+
+                   Keyboard Science
+               </div>
+            </div>
+            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">
+                <div class="container">
+                <span class="fa fa-language border rounded-circle pt-2 pr-2 pl-2 pb-2 bg-info" aria-hidden="true"></span>
+
+                   Languages
+               </div>
+
+            </div>
+
+            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">
+                <div class="container">
+                <span class="fa fa-line-chart border rounded-circle pt-2 pr-2 pl-2 pb-2 bg-info" aria-hidden="true"></span>
+
+                   Chart Science
+               </div>
+
+            </div>
         </div>
         <div class="row card-columns">
-            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">thing 4</div>
-            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">thing 5</div>
-            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">thing 6</div>
+            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">
+                <div class="container">
+                <span class="fa fa-briefcase border rounded-circle pt-2 pr-2 pl-2 pb-2 bg-info" aria-hidden="true"></span>
+
+                   Briefcase Management
+               </div>
+
+            </div>
+            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">
+                <div class="container">
+                <span class="fa fa-cogs border rounded-circle pt-2 pr-2 pl-2 pb-2 bg-info" aria-hidden="true"></span>
+
+                   Cog Design
+               </div>
+
+            </div>
+            <div class="col-md-3 mr-1 pt-3 pb-3 card shadow">
+                <div class="container">
+                <span class="fa fa-users border rounded-circle pt-2 pr-2 pl-2 pb-2 bg-info" aria-hidden="true"></span>
+
+                   Human Use
+               </div>
+            
+            </div>
         </div>
         <button class="btn btn-outline-dark">Browse the Things</button>
     </div>
@@ -85,7 +131,12 @@
         <div class="row main-row">
             <div class="col-md-2">
                 <p><img src="100x100ph.png">
-                <span class="fa fa-globe" aria-hidden="true"></span></p>
+                <span class="fa fa-globe" aria-hidden="true"></span>
+                <select class="form-control">
+                  <option>English</option>
+                  <option>Espanol</option>
+                </select>
+                <button class="btn btn-light">Submit</button>
             </div>
         </div>
     </div>
